@@ -35,13 +35,13 @@ Creating a web-based application for to manage Airline service process is the ba
 
 ## Roadmap
 - [x] Setting Up the repo for the group
-- [x] Resource Gathering
-- [x] Front page development
-- [x] Sub page develpment
-- [x] Designing a database and UML model diagram
-- [x] Programming of Java server pages
-- [x] Testing
-- [x] Use of design patteren such as MVC
+- [] Resource Gathering
+- [] Front page development
+- [] Sub page develpment
+- [] Designing a database and UML model diagram
+- [] Programming of Java server pages
+- [] Testing
+- [] Use of design patteren such as MVC
 - [ ] Clear  demostrations of your prototype Jsps
 
 <p align="right">(<a href="#top">back to top</a>)</p>

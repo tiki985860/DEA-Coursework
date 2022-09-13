@@ -50,7 +50,7 @@ Creating a web-based application for to manage Airline service process is the ba
 ## Contact
 P.S.A.T Lakshani - https://github.com/tiki985860
 
-H.R.Edandupola   -
+H.R.Edandupola   - https://github.com/HashiniEdandupola
 
 D.P Wijenayaka   -
 

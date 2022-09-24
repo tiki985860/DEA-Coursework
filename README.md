@@ -1,19 +1,15 @@
 <div id="top"></div>
 <h1 align="center">DEA-Coursework-21.1</h1>
-<p align="center">Developing a enterprice Application Which is Related to Pheonix Airline PVT(LTD) </p>
+<p align="center">Developing an enterprise Application for Pheonix Airline PVT(LTD) </p>
 <details>
   <summary>Table of Contents</summary>
-  <ol>
-    
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+    <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-    
-  </ol>
+    </ol>
 </details>
 
 
@@ -22,7 +18,7 @@ Creating a web-based application for to manage Airline service process is the ba
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
+## Built With
 * HTML
 * CSS
 * JavaScript
@@ -54,11 +50,11 @@ P.S.A.T Lakshani - https://github.com/tiki985860
 
 H.R.Edandupola   - https://github.com/HashiniEdandupola
 
-D.P Wijenayaka   -
+D.P Wijenayaka   - 
 
-C.T Samarasinghe -https://github.com/Chamudi-Samarasinghe
+C.T Samarasinghe - https://github.com/Chamudi-Samarasinghe
 
-Praveen          -
+Praveen          - https://github.com/PraveenDev111
 
 Sajahan Arshed   -
 

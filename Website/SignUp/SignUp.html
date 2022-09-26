@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="SignUp.js"></script>
+</head>
+<body>
+    <div class="form-modal">
+    
+        <div class="form-toggle">
+            <button id="login-toggle" onclick="toggleLogin()">MEMBER</button>
+            <button id="signup-toggle" onclick="toggleSignup()">GUEST</button>
+        </div>
+    
+        <div id="member-form">
+            <form>
+                <label for="title">Title</label>
+            <select id="title" name="choose_title" required>
+                <option value="">Choose Title</option>
+                <option value="rev">Rev</option>
+                <option value="prof">PROF</option>
+                <option value="dr">Dr</option>
+                <option value="hon">Hon</option>
+                <option value="mr">Mr</option>
+                <option value="mrs">Mrs</option>
+                <option value="ms">Ms</option>
+                <option value="exc">Exc</option>
+                <option value="ven">Ven</option>
+                <option value="miss">Miss</option>
+                <option value="master">Master</option>
+                <option value="admiral">Admiral</option>
+                <option value="major">Major</option>
+                <option value="capt">Capt</option>
+            </select>
+          </div>
+          <hr>
+        <div class="elem-group">
+          <label for="fname">First Name</label>
+          <label for="as">As on your passport</label><br>
+          <input type="fname" id="fname" name="fname" placeholder="First Name" required>
+        </div>
+        <hr>
+        <div class="elem-group">
+          <label for="lname">Last Name</label><br>
+          <label for="as">As on your passport</label>
+          <input type="lname" id="lname" name="lname" placeholder="Last Name"  required>
+        </div>
+        <hr>
+        <div class="elem-group">
+          <label for="gender">Gender</label><br>
+          <input type="radio" id="male" name="male" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="female" value="female">
+          <label for="female">Female</label><br>
+        </div>
+        <hr/>
+        </form>
+        </div>
+    
+        <div id="guest-form">
+            <form>
+                <label for="title">Title</label>
+            <select id="title" name="choose_title" required>
+                <option value="">Choose Title</option>
+                <option value="rev">Rev</option>
+                <option value="prof">PROF</option>
+                <option value="dr">Dr</option>
+                <option value="hon">Hon</option>
+                <option value="mr">Mr</option>
+                <option value="mrs">Mrs</option>
+                <option value="ms">Ms</option>
+                <option value="exc">Exc</option>
+                <option value="ven">Ven</option>
+                <option value="miss">Miss</option>
+                <option value="master">Master</option>
+                <option value="admiral">Admiral</option>
+                <option value="major">Major</option>
+                <option value="capt">Capt</option>
+            </select>
+          </div>
+          <hr>
+        <div class="elem-group">
+          <label for="fname">First Name</label>
+          <label for="as">As on your passport</label><br>
+          <input type="fname" id="fname" name="fname" placeholder="First Name" required>
+        </div>
+        <hr>
+        <div class="elem-group">
+          <label for="lname">Last Name</label>
+          <label for="as">As on your passport</label><br>
+          <input type="lname" id="lname" name="lname" placeholder="Last Name"  required>
+        </div>
+        <hr>
+        <div class="elem-group">
+          <label for="gender">Gender</label><br>
+          <input type="radio" id="male" name="male" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="female" value="female">
+          <label for="female">Female</label><br>
+        </div>
+        <hr/>
+        </form>
+        </div>
+    
+    </div>
+    
 
+</body>
+</html>

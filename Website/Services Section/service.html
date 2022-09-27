@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{  
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* all Document */
+body{
+    background-color:#18194f;
+    background: linear-gradient(90deg, rgba(24,25,79,0.8519782913165266) 100%, rgba(95,89,191,0.30015756302521013) 100%, rgba(5,63,162,0.1881127450980392) 100%), url(./back.jpg);
+    background-size: cover;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+html{
+    font-family: 'Roboto';
+}
+
+/* Our Services */
+.main{
+    margin: 0 auto;
+    width: 100%;
+    top: 170px;
+    position: relative;
+}
+
+
+
+
+/* Head section */
+.main > h1, .title{
+    letter-spacing: 1px;
+    font-weight: 300 !important;
+}
+
+/* Head Description */
+.main > h1, .main > p{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    transition: color 2s ease-in;
+}
+
+/* Srevice */
+.feature{
+    padding: 40px 25px;
+    margin: 12px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    border: 3px solid white;
+    width: 200px;
+    
+}
+
+.feature:hover{
+    transform: translateY(-3px);
+    background-color: #8f8279;
+    
+}
+
+.feature::after{
+    content: '';
+    border-style: solid;
+    border-color: #18194f #8f8279;
+    border-width: 20px;
+    bottom: -40px;
+    left: -40px;
+    position: absolute;
+    transition: left 0.5s ease-out, bottom 0.5s ease-out;
+}
+
+.feature:hover::after{
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.feature > .title{
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 1.55rem;
+    margin-bottom: 1rem;
+    transition: color 2s ease-in;
+    text-transform: capitalize;
+    
+}
+
+
+
+.feature > .paragraph{
+    line-height: 1.55rem;
+    margin: 0;
+    transition: color 2s ease-out;
+}
+
+.feature > i{
+    color: #e6d6ec;
+    display: block;
+    margin-bottom: 0.9rem;
+    font-size: 4rem;
+    transition: color 2s ease-in;
+}
+
+.ourservices{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .feature{
+        padding: 40px 25px;
+        width: 250px;
+        
+    }
+}
+
+@media(max-width:1110px){
+
+    .feature > i{
+        font-size: 3rem;
+    }
+
+    .feature{
+        width: 170px;
+        padding: 20px 15px;
+    }
+    .main > h1{
+        font-size: 30px;
+    }
+
+    .main > p, .service > .desc{
+        font-size: 15px;
+    }
+
+    
+}

@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="s.css">
-    <link rel="stylesheet" href="s.js">
+    <link rel="stylesheet" href="signup1.css">
+    <link rel="stylesheet" href="signup1.js">
 </head>
 <body>
     <div class="form-modal">
     
         <div class="form-toggle">
-            <button id="login-toggle" onclick="toggleLogin()">STAFF</button>
-            <button id="signup-toggle" onclick="toggleSignup()">USER</button>
+            <button id="staff-toggle" onclick="toggleStaff()">STAFF</button>
+            <button id="user-toggle" onclick="toggleUser()">USER</button>
         </div>
     
         <div id="staff-form">
@@ -21,12 +21,16 @@
                 <input type="email" placeholder="Enter your email"/>
                 <input type="text" placeholder="Enter username"/>
                 <input type="password" placeholder="Create password"/>
+                <input type="phoneno" placeholder="Enter Phone Number"/>
+                <select id="usertype" name="select_usertype" required>
+                    <option value="">Select User Type</option>
+                    <option value="rev">Staff 1</option>
+                    <option value="rev">Staff 2</option>
+                </select>
+                <input type="empid" placeholder="Enter Employee ID"/>
                 <button type="button" class="btn signup">create account</button>
-                <label class="anim">
                     <input type="checkbox" class="checkbox" required>
-                    <span>I understand and accept the terms and conditions of the FlySmiLes frequent flyer programme</span>
-                </label>
-                <hr/>
+                    <span>I understand and accept the terms and conditions of Pheonix Airline</span>
     
             </form>
         </div>

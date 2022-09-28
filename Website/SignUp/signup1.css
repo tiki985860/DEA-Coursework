@@ -82,7 +82,7 @@ body{
     border-bottom-left-radius: 20px;
 }
 
-#login-toggle{
+#staff-toggle{
     background:#57b846;
     color:#ffff;
 }
@@ -95,19 +95,19 @@ body{
     transform:translateX(-50%);  
 }
 
-#login-form , #signup-form{
+#staff-form , #signup-form{
     position:relative;
     width:100%;
     height:auto;
     padding-bottom:1em;
 }
 
-#signup-form{
+#user-form{
     display: none;
 }
 
 
-#login-form button , #signup-form button{
+#staff-form button , #signup-form button{
     width:100%;
     margin-top:0.5em;
     padding:0.6em;

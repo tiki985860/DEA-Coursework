@@ -13,4 +13,4 @@ function toggleUser(){
      document.getElementById("user-toggle").style.backgroundColor="#fff";
      document.getElementById("user-toggle").style.color="#222";
      document.getElementById("user-form").style.display="none";
-     document.getElementById("
+     document.getElementById("staff-form").style.display="block";

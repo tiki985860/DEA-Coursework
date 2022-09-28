@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Quicksand');
+
+*{
+    font-family: 'quicksand',Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:#fff;
+}
+
+.form-modal{
+    position:relative;
+    width:450px;
+    height:auto;
+    margin-top:8em;
+    left:50%;
+    transform:translateX(-50%);
+    background:#fff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow:0 3px 20px 0px rgba(0, 0, 0, 0.1)
+}
+
+
+.form-modal button{
+    cursor: pointer;
+    position: relative;
+    text-transform: capitalize;
+    font-size:1em;
+    z-index: 2;
+    outline: none;
+    background:rgb(12, 218, 94);
+    transition:0.2s;
+}
+
+.form-modal .btn{
+    border-radius: 20px;
+    border:none;
+    font-weight: bold;
+    font-size:1.2em;
+    padding:0.8em 1em 0.8em 1em!important;
+    transition:0.5s;
+    border:1px solid #23cc45;
+    margin-bottom:0.5em;
+    margin-top:0.5em;
+}
+
+.form-modal .admin{
+    background:#57b846;
+    color:#fff;
+}
+
+.form-modal .admin:hover {
+    background:#222;
+}
+
+#admin{
+    background:#57b846;
+    color:#ffff;
+}
+
+.form-modal form{
+    position: relative;
+    width:90%;
+    height:auto;
+    left:50%;
+    transform:translateX(-50%);  
+}
+
+#admin-form{
+    position:relative;
+    width:100%;
+    height:auto;
+    padding-bottom:1em;
+}
+
+#admin-form button{
+    width:100%;
+    margin-top:0.5em;
+    padding:0.6em;
+}
+
+.form-modal h2{
+    text-align: center;
+    color: #57b846;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.form-modal input{
+    position: relative;
+    width:100%;
+    font-size:1em;
+    padding:1.2em 1.7em 1.2em 1.7em;
+    margin-top:0.6em;
+    margin-bottom:0.6em;
+    border-radius: 20px;
+    border:none;
+    background:#ebebeb;
+    outline:none;
+    font-weight: bold;
+    transition:0.4s;
+}
+
+.form-modal input:focus , .form-modal input:active{
+    transform:scaleX(1.02);
+}
+
+.form-modal input::-webkit-input-placeholder{
+    color:#222;
+}
+
+.form-modal select{
+    position: relative;
+    width:100%;
+    font-size:1em;
+    padding:1.2em 1.7em 1.2em 1.7em;
+    margin-top:0.6em;
+    margin-bottom:0.6em;
+    border-radius: 20px;
+    border:none;
+    background:#ebebeb;
+    outline:none;
+    font-weight: bold;
+    transition:0.4s;
+}
+
+
+.form-modal p{
+    font-size:16px;
+    font-weight: bold;
+}
+
+.form-modal p a{
+    color:#57b846;
+    text-decoration: none;
+    transition:0.2s;
+}
+
+.form-modal p a:hover{
+    color:#222;
+}
+

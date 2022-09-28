@@ -1,4 +1,4 @@
-function toggleSignup(){
+function toggleUser(){
     document.getElementById("login-toggle").style.backgroundColor="#fff";
      document.getElementById("login-toggle").style.color="#222";
      document.getElementById("signup-toggle").style.backgroundColor="#57b846";
@@ -7,7 +7,7 @@ function toggleSignup(){
      document.getElementById("signup-form").style.display="block";
  }
  
- function toggleLogin(){
+ function toggleStaff(){
      document.getElementById("login-toggle").style.backgroundColor="#57B846";
      document.getElementById("login-toggle").style.color="#fff";
      document.getElementById("signup-toggle").style.backgroundColor="#fff";

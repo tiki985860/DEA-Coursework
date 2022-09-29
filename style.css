@@ -192,10 +192,11 @@
     cursor: pointer;
     transition: all 0.4s ease;
   }
-  
+
   .input-box input[type="button"]:hover{
     opacity: 1;
   }
+  
   footer .bottom-details{
     width: 100%;
     background: #0F0844;

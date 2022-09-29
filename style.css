@@ -201,7 +201,7 @@
     width: 100%;
     background: #0F0844;
   }
-  
+
   footer .bottom-details .bottom_text{
     max-width: 1250px;
     margin: auto;
@@ -209,6 +209,7 @@
     display: flex;
     justify-content: space-between;
   }
+  
   .bottom-details .bottom_text span,
   .bottom-details .bottom_text a{
     font-size: 14px;

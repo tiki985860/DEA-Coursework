@@ -218,11 +218,12 @@
     opacity: 0.8;
     text-decoration: none;
   }
-  
+
   .bottom-details .bottom_text a:hover{
     opacity: 1;
     text-decoration: underline;
   }
+  
   .bottom-details .bottom_text a{
     margin-right: 10px;
   }

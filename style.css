@@ -180,7 +180,7 @@
     color: #AFAFB6;
     font-size: 16px;
   }
-  
+
   .link-boxes .input-box input[type="button"]{
     background: #fff;
     color: #140B5C;
@@ -192,6 +192,7 @@
     cursor: pointer;
     transition: all 0.4s ease;
   }
+  
   .input-box input[type="button"]:hover{
     opacity: 1;
   }

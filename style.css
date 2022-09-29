@@ -138,11 +138,12 @@
     height: 2px;
     width: 35px;
     background: #fff;
-    
+
   }
   .content .link-boxes .box li{
     margin: 6px 0;
     list-style: none;
+    
   }
   .content .link-boxes .box li a{
     color: #fff;

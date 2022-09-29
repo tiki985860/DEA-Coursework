@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#fff;
+    background:rgb(255, 255, 255);
 }
 
 .form-modal{
@@ -16,22 +16,23 @@ body{
     margin-top:8em;
     left:50%;
     transform:translateX(-50%);
-    background:#fff;
+    background:rgb(247, 249, 249);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow:0 3px 20px 0px rgba(0, 0, 0, 0.1)
+    box-shadow:0 3px 20px 0px rgba(25, 26, 26, 0.1)
 }
 
 
 .form-modal button{
     cursor: pointer;
+    color: rgb(255, 255, 255);
     position: relative;
     text-transform: capitalize;
     font-size:1em;
     z-index: 2;
     outline: none;
-    background:rgb(12, 218, 94);
+    background:rgb(4, 2, 108);
     transition:0.2s;
 }
 
@@ -42,23 +43,18 @@ body{
     font-size:1.2em;
     padding:0.8em 1em 0.8em 1em!important;
     transition:0.5s;
-    border:1px solid #23cc45;
+    border:1px solid rgb(4, 2, 108);
     margin-bottom:0.5em;
     margin-top:0.5em;
 }
 
 .form-modal .admin{
-    background:#57b846;
+    background:rgb(4, 2, 108);
     color:#fff;
 }
 
 .form-modal .admin:hover {
-    background:#222;
-}
-
-#admin{
-    background:#57b846;
-    color:#ffff;
+    background:rgb(0, 0, 0);
 }
 
 .form-modal form{
@@ -84,7 +80,7 @@ body{
 
 .form-modal h2{
     text-align: center;
-    color: #57b846;
+    color: rgb(4, 2, 108);
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -97,7 +93,7 @@ body{
     padding:1.2em 1.7em 1.2em 1.7em;
     margin-top:0.6em;
     margin-bottom:0.6em;
-    border-radius: 20px;
+    border-radius:20px;
     border:none;
     background:#ebebeb;
     outline:none;
@@ -110,22 +106,7 @@ body{
 }
 
 .form-modal input::-webkit-input-placeholder{
-    color:#222;
-}
-
-.form-modal select{
-    position: relative;
-    width:100%;
-    font-size:1em;
-    padding:1.2em 1.7em 1.2em 1.7em;
-    margin-top:0.6em;
-    margin-bottom:0.6em;
-    border-radius: 20px;
-    border:none;
-    background:#ebebeb;
-    outline:none;
-    font-weight: bold;
-    transition:0.4s;
+    color:rgb(0, 0, 0);
 }
 
 
@@ -135,12 +116,14 @@ body{
 }
 
 .form-modal p a{
-    color:#57b846;
+    color:rgb(9, 21, 247);
     text-decoration: none;
     transition:0.2s;
 }
 
 .form-modal p a:hover{
-    color:#222;
+    color:rgb(255, 255, 255);
 }
+
+
 

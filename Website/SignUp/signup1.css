@@ -13,7 +13,7 @@ body{
     position:relative;
     width:450px;
     height:auto;
-    margin-top:4em;
+    margin-top:1em;
     left:50%;
     transform:translateX(-50%);
     background:#fff;

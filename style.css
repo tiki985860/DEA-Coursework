@@ -175,11 +175,12 @@
     color: #fff;
     margin-top: 5px;
   }
-  
+
   .link-boxes .input-box input::placeholder{
     color: #AFAFB6;
     font-size: 16px;
   }
+  
   .link-boxes .input-box input[type="button"]{
     background: #fff;
     color: #140B5C;

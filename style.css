@@ -209,7 +209,7 @@
     display: flex;
     justify-content: space-between;
   }
-  
+
   .bottom-details .bottom_text span,
   .bottom-details .bottom_text a{
     font-size: 14px;
@@ -218,6 +218,7 @@
     opacity: 0.8;
     text-decoration: none;
   }
+  
   .bottom-details .bottom_text a:hover{
     opacity: 1;
     text-decoration: underline;

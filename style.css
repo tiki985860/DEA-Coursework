@@ -129,7 +129,7 @@
     margin-bottom: 10px;
     position: relative;
   }
-  
+
   .link-boxes .box .link_name::before{
     content: '';
     position: absolute;
@@ -138,6 +138,7 @@
     height: 2px;
     width: 35px;
     background: #fff;
+    
   }
   .content .link-boxes .box li{
     margin: 6px 0;

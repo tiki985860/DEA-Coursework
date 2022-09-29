@@ -223,10 +223,11 @@
     opacity: 1;
     text-decoration: underline;
   }
-  
+
   .bottom-details .bottom_text a{
     margin-right: 10px;
   }
+  
   @media (max-width: 900px) {
     footer .content .link-boxes{
       flex-wrap: wrap;

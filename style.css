@@ -158,10 +158,11 @@
     opacity: 1;
     text-decoration: underline;
   }
-  
+
   .content .link-boxes .input-box{
     margin-right: 55px;
   }
+  
   .link-boxes .input-box input{
     height: 40px;
     width: calc(100% + 55px);

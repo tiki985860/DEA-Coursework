@@ -1,55 +1,202 @@
 body{
     background-image: url(turkish-flight-image.jpg);
-   background-size: cover;
-     opacity: 1;
-   }
-#form{ background-color: #000;
-    height:500px;
+
+
+    
+    background-size: cover;
+
+
+    
+    opacity: 1;
+    
+}
+#form{
+    background-color: #000;
+
+
+    
+    height:375px;
+
+
     width:700px;
-   margin:auto;
-    padding:20px;
-   opacity: 0.7;
+
+
+    margin:auto;
+
+
+   padding:30px;
+
+    
+    opacity: 0.7;
+}
 #form h3{
     border-bottom: 2px solid #3399ff;
+
+    
     width:210px;
-   padding: 5px;}
-::placeholder{color:#fff
+
+    
+    padding: 5px;
+    
+}
+::placeholder{
+
+    
+    color:#fff
 }
 #input #input-group{
-     width:300px;
-   margin:5px;
-   border-top: none;
+
+    
+    width:300px;
+
+    
+    margin:5px;
+
+    
+    border-top: none;
+
+    
     border-left: none;
-   border-right: none;
+
+    
+    border-right: none;
+
+    
     outline: none;
-     background: transparent;
+
+    
+    background: transparent;
+
+    
     color:#fff
 }
 #input2 #input-group{
     width:195px;
+
+    
     margin:5px;
-     border-top: none;
-  border-left: none;
-   border-right: none;
-   outline: none;
- background: transparent;
- color:#fff
+
+    
+    border-top: none;
+
+    
+    border-left: none;
+
+    
+    border-right: none;
+    
+    outline: none;
+
+    
+    background: transparent;
+    
+    color:#fff
+
 }
 #input3 #input-group{
+
     
     margin-left: 50px;
 }
-#input4 #input-g  width:300px; margin:5px;
-    border-top: none; border-left: none;
- border-right: none outline: none background: transparent  color:#fff
-}
-#input4 #input-group1{ width:615px;
- margin:5px; border-top: none;
+#input4 #input-group{
+
+    width:300px;
+    
+    margin:5px;
+
+    
+    border-top: none;
+
+    
     border-left: none;
-  border-right: none;
-  outline: none;
-    #input6 #input-group1{
+
+    
+    border-right: none;
+
+    
+    outline: none;
+
+    
+    background: transparent;
+    
+    color:#fff
+}
+#input4 #input-group1{
     width:615px;
-   margin:5px;
-border-top: none border-left: none  border-right: none; outline: none;
-  background: transpacolor:#ff}
+
+    
+    margin:5px;
+
+    
+    border-top: none;
+
+    
+    border-left: none;
+    
+    border-right: none;
+    
+    outline: none;
+    
+    background: transparent;
+    
+    color:#fff
+}
+#input5 h3{
+    
+    border-bottom: 2px solid #3399ff;
+    
+    width:220px;
+    
+    padding: 5px;
+}
+#input6 #input-group{
+    
+    width:300px;
+
+    
+    margin:5px;
+
+    
+    border-top: none;
+
+    
+    border-left: none;
+    
+    border-right: none;
+
+    
+    outline: none;
+
+    
+    background: transparent;
+    
+    
+    color:#fff
+}
+#input6 #input-group1{
+    
+    width:615px;
+
+    
+    margin:5px;
+
+    
+    border-top: none;
+
+    
+    border-left: none;
+
+    
+    border-right: none;
+
+    
+    outline: none;
+
+    
+    background: transparent;
+
+    
+    color:#fff
+
+
+}

@@ -50,7 +50,7 @@ P.S.A.T Lakshani - https://github.com/tiki985860
 
 H.R.Edandupola   - https://github.com/HashiniEdandupola
 
-D.P Wijenayaka   - 
+D.P Wijenayaka   - https://github.com/Dulari99wijenayake
 
 C.T Samarasinghe - https://github.com/Chamudi-Samarasinghe
 

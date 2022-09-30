@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package staff;
+package javaBeans;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -28,5 +28,6 @@ public class connectdb {
        catch(ClassNotFoundException | SQLException ex){
            System.out.println("Error: "+ex);}
         return st;
+        
     }
 }

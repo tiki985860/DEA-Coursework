@@ -1,4 +1,4 @@
-package staff;
+package javaBeans;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
@@ -7,7 +7,7 @@ import java.sql.Statement;
  * @author Praveen Thavendran
  */
 public class staffApprove {
-    public void staffapprovalshow()
+    public void staffapprovalshow()//development phase
     {
         ResultSet rs=null;
         Statement st = connectdb.Db();

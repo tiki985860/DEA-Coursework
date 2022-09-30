@@ -1,4 +1,4 @@
-package staff;
+package javaBeans;
 import java.sql.*;
 /**
  *
@@ -10,7 +10,7 @@ public class airplane {
    public void createAirplane(int airId, String fName, int rows, int cols, double busi, int userid)
    {
        int seatcount = rows*cols;
-       String sql = "insert into tbleairplanedetails (AirpId, FlightName, RowCount, ColumnCount, seatCount, business_rate, createdUserId) VALUES ("
+       String sql = "insert into tbleairplanedetails (AirpId, FlightName, RowCount, ColumnCount, seatCount, business_rate, createdEmpId) VALUES ("
                + "'"+airId+"',"
                + " '"+fName+"',"
                + " '"+rows+"',"
@@ -22,8 +22,7 @@ public class airplane {
        catch(Exception e){System.out.println("Error: "+e);}
        
        //auto creates the relevant seats info
-       seats s = new seats();
-       s.createSeats(rows, cols, airId);
+       
    }
    
    public void deleteAirplane(int airid)

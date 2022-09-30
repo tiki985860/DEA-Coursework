@@ -1,31 +1,15 @@
-package staff;
-import java.math.BigInteger;
+package javaBeans;
 import java.sql.*;
-import java.security.MessageDigest;
 /**
  *
  * @author Praveen Thavendran
  */
 public class AllUsers {
-    
-    //private static AllUsers A = new AllUsers();
-    
-    public String md5encrypt(String pass){
-        String hashword = null;
-        try{
-            MessageDigest md = MessageDigest.getInstance("MD5");
-           md.update(pass.getBytes());
-           BigInteger hash = new BigInteger(1,md.digest());
-           hashword = hash.toString(16);
-            }
-        catch(Exception e){}
-        return hashword;    
-    }
-    
+       
     public void staffSignup(String Username, String pass, String name, int empId, String grade)
     {
      Statement st;
-     String encpass = md5encrypt(pass);
+     String encpass = md5encryption.md5encrypt(pass);
      String sql = "insert into staffapproval values ('"+Username+"','"+encpass+"','"+grade+"','"+empId+"','"+name+"')";
      try{
          st=connectdb.Db();
@@ -39,7 +23,7 @@ public class AllUsers {
     {
         Statement st;
         //encrypted password
-        String encPass = md5encrypt(pass); 
+        String encPass = md5encryption.md5encrypt(pass); 
         try
         {
             st = connectdb.Db();
@@ -51,7 +35,7 @@ public class AllUsers {
     
     public void adminSignup(String Username, String pass, String name, int empId)
     {
-        String encPass = md5encrypt(pass);
+        String encPass = md5encryption.md5encrypt(pass);
         ResultSet rs;
         int userId = 0;
         
@@ -74,10 +58,22 @@ public class AllUsers {
     public void addStaffbyAdmin(String Username, String pass, String name, int empId, String grade)
     {       
         staffSignup(Username, pass, name, empId,grade);
-        staffApprove stf = new staffApprove();
-        stf.adminApprove(Username); 
+        //staffApprove stf = new staffApprove();
+        //stf.adminApprove(Username); 
+        staffApprove.adminApprove(Username);
     }
     
-    
+    public boolean checkUser(String username, String pass){
+        String sql ="select * from useraccounts where username = '"+username+"' && password = '"+pass+"'";
+        
+        try{
+            connectdb.Db().executeQuery(sql);
+        }catch(Exception e)
+        {
+            return false;
+        }
+        return false;
+        
+    }
     
 }

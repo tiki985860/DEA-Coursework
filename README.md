@@ -35,7 +35,7 @@ Creating a web-based application for to manage Airline service process is the ba
 - [x] design the wireframe
 - [x] present our proposed design 
 - [x] Front page development
-- [ ] Sub page develpment
+- [x] Sub page develpment
 - [ ] Designing a database and UML model diagram
 - [ ] Programming of Java server pages
 - [ ] Testing

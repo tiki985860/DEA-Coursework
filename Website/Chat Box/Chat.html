@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat box</title>
+    <link rel="stylesheet" href="loging.css">
+    <script src="loging.js"></script>
+</head>
+<body>
+    <h1>Test</h1>
+    <button class="openChatBtn" onclick="openForm()">Open in Chat</button>
+    <div class="openChat">
+        <form>
+            <h1>Chat</h1>
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn close" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+</body>
+</html>
 

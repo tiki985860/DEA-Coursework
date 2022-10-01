@@ -3,7 +3,6 @@
 *
 {
     margin:0;
-    
     padding: 0;
     
     box-sizing: border-box;
@@ -251,5 +250,5 @@ input[type="submit"]
 }
 input [type="submit"] :active
 {
-    opacity: 0.8;
+   opacity: 0.8;
 }

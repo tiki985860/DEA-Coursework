@@ -10,3 +10,17 @@ body{
   background: rgb(65, 65, 164);
   font-family: 'Josefin Sans', sans-serif;
 }
+.about{
+  color:white;
+}
+
+.wrapper{
+  margin-top: 10%;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}

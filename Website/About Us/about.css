@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(65, 65, 164);
+  font-family: 'Josefin Sans', sans-serif;
+}

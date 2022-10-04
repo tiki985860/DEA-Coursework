@@ -1,0 +1,18 @@
+SMAP
+checkbox_jsp.java
+JSP
+*S JSP
+*F
++ 0 checkbox.jsp
+checkbox.jsp
+*L
+1,16:47
+17,22:64
+38:86
+39:87,6
+40:93
+41,5:95
+45:100
+46,2:101,3
+48,11:107
+*E

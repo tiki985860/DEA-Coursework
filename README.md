@@ -15,9 +15,9 @@
 
 
 ## About The Project
-Creating a web-based application for to manage Airline service process is the basic summary of this project.
+Creating a web-based application for to manage Airline service process is the basic summary of this project.<br>
 <a href= "PhoenixAirlines/web/index.html"> Visit Phoenix Airlines Home page! </a><br>
-<a href = "https://github.com/tiki985860/DEA-Coursework/blob/main/PhoenixAirlines/web/Admin/admin_user_profile_html.html">Admin Dashboard</a><br>
+<a href = "PhoenixAirlines/web/Admin/admin_user_profile_html.html">Admin Dashboard</a><br>
 <a href = "PhoenixAirlines/web/staff 1/staffprof.html">Staff 1 dashboard</a><br>
 <a href = "PhoenixAirlines/web/staff2/staffprof.html">Staff 2 dashboard</a><br>
 <p align="right">(<a href="#top">back to top</a>)</p>
